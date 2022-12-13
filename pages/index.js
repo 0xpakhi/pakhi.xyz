@@ -77,19 +77,19 @@ export default function Home() {
               loading="lazy"
             ></iframe>
             <a href={"./art"} target={"_blank"}>
-            <Flex
-              height={"138"}
-              width={"301px"}
-              borderRadius={"12px"}
-              backgroundImage={"art.png"}
-              backgroundSize={"cover"}
-              align={"center"}
-              justify={"center"}
-            >
-              <Text color={"white"} fontSize={"24px"} fontWeight={"700"}>
-                🎨Art
-              </Text>
-            </Flex>
+              <Flex
+                height={"138"}
+                width={"301px"}
+                borderRadius={"12px"}
+                backgroundImage={"art.png"}
+                backgroundSize={"cover"}
+                align={"center"}
+                justify={"center"}
+              >
+                <Text color={"white"} fontSize={"24px"} fontWeight={"700"}>
+                  🎨Art
+                </Text>
+              </Flex>
             </a>
           </Flex>
         </Flex>
@@ -117,23 +117,25 @@ export default function Home() {
                 Proof of Work
               </Text>
             </Flex>
-            <Flex
-              height={{ base: "126px", md: "138px" }}
-              width={{ base: "153.2px", md: "301px" }}
-              borderRadius={"12px"}
-              backgroundImage={"art.png"}
-              backgroundSize={"cover"}
-              align={"center"}
-              justify={"center"}
-            >
-              <Text
-                color={"white"}
-                fontSize={{ base: "16px", md: "24px" }}
-                fontWeight={"700"}
+            <a href={"./art"} target={"_blank"}>
+              <Flex
+                height={{ base: "126px", md: "138px" }}
+                width={{ base: "153.2px", md: "301px" }}
+                borderRadius={"12px"}
+                backgroundImage={"art.png"}
+                backgroundSize={"cover"}
+                align={"center"}
+                justify={"center"}
               >
-                🎨Art
-              </Text>
-            </Flex>
+                <Text
+                  color={"white"}
+                  fontSize={{ base: "16px", md: "24px" }}
+                  fontWeight={"700"}
+                >
+                  🎨Art
+                </Text>
+              </Flex>
+            </a>
           </Flex>
           <iframe
             style={{ borderRadius: "12px" }}
@@ -173,7 +175,7 @@ export default function Home() {
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel textAlign={"left"}>
-            <i>In progress, updating soon</i>
+              <i>In progress, updating soon</i>
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
