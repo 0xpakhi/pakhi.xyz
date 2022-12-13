@@ -76,7 +76,7 @@ export default function Home() {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
-
+            <a href={"./art"} target={"_blank"}>
             <Flex
               height={"138"}
               width={"301px"}
@@ -90,6 +90,7 @@ export default function Home() {
                 🎨Art
               </Text>
             </Flex>
+            </a>
           </Flex>
         </Flex>
         <Flex
@@ -171,11 +172,8 @@ export default function Home() {
               <Box>Builds🚢</Box>
               <AccordionIcon />
             </AccordionButton>
-            <AccordionPanel>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <AccordionPanel textAlign={"left"}>
+            <i>In progress, updating soon</i>
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
