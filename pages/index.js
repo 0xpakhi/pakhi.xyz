@@ -14,15 +14,15 @@ export default function Home() {
       <Flex flexDirection={"column"} align={"center"}>
         <Flex
           height={"123px"}
-          width={"703px"}
+          width={{ base: "319px", md: "703px" }}
           backgroundColor={"#171413"}
           border={"1px solid rgba(255, 255, 255, 0.1)"}
-          marginTop={"84px"}
+          marginTop={{ base: "66px", md: "84px" }}
           borderRadius={"12px"}
           boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}
           align={"center"}
         >
-          <Flex marginLeft={"26px"} gap={"15px"}>
+          <Flex marginLeft={{ base: "14.18px", md: "26px" }} gap={"15px"}>
             <Image
               src={"pfp.png"}
               height={"75px"}
@@ -30,13 +30,17 @@ export default function Home() {
               borderRadius={"100px"}
               alt={"pfp"}
             />
-            <Flex flexDir={"column"}>
-              <Text color={"white"} fontSize={"24px"} fontWeight={"600"}>
+            <Flex flexDir={"column"} gap={{ base: "6px", md: "0px" }}>
+              <Text
+                color={"white"}
+                fontSize={{ base: "16px", md: "24px" }}
+                fontWeight={"600"}
+              >
                 Pakhi Goel
               </Text>
               <Text
                 color={"rgba(255, 255, 255, 0.8)"}
-                fontSize={"16px"}
+                fontSize={{ base: "12px", md: "16px" }}
                 fontWeight={"400"}
               >
                 internet craftsman? code x design <br />
@@ -46,7 +50,11 @@ export default function Home() {
           </Flex>
         </Flex>
 
-        <Flex marginTop={"46px"} gap={"31px"}>
+        <Flex
+          marginTop={"46px"}
+          gap={"31px"}
+          display={{ base: "none", md: "flex" }}
+        >
           <Flex
             height={"246px"}
             width={"371px"}
@@ -84,10 +92,60 @@ export default function Home() {
             </Flex>
           </Flex>
         </Flex>
+        <Flex
+          display={{ base: "flex", md: "none" }}
+          marginTop={"26px"}
+          flexDir={"column"}
+          gap={"26px"}
+        >
+          <Flex gap={"13.68px"}>
+            <Flex
+              height={{ base: "126px", md: "246px" }}
+              width={{ base: "152.32px", md: "371px" }}
+              borderRadius={"12px"}
+              align={"center"}
+              backgroundImage={"pow.svg"}
+              backgroundSize={"cover"}
+              justify={"center"}
+            >
+              <Text
+                color={"white"}
+                fontSize={{ base: "16px", md: "24px" }}
+                fontWeight={"700"}
+              >
+                Proof of Work
+              </Text>
+            </Flex>
+            <Flex
+              height={{ base: "126px", md: "138px" }}
+              width={{ base: "153.2px", md: "301px" }}
+              borderRadius={"12px"}
+              backgroundImage={"art.png"}
+              backgroundSize={"cover"}
+              align={"center"}
+              justify={"center"}
+            >
+              <Text
+                color={"white"}
+                fontSize={{ base: "16px", md: "24px" }}
+                fontWeight={"700"}
+              >
+                🎨Art
+              </Text>
+            </Flex>
+          </Flex>
+          <iframe
+            style={{ borderRadius: "12px" }}
+            height={"80px"}
+            src="https://open.spotify.com/embed/track/7HE4i03hLQsuuV0fUPFypJ?utm_source=generator"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </Flex>
         <Accordion
           allowMultiple
-          marginTop={"46px"}
-          width={"703px"}
+          marginTop={{ base: "24px", md: "46px" }}
+          width={{ base: "319px", md: "703px" }}
           background={"rgba(23, 20, 19, 0.2)"}
           border={"1px solid rgba(255, 255, 255, 0.1)"}
           borderRadius={"12px"}
@@ -101,13 +159,13 @@ export default function Home() {
             marginTop={"10px"}
             borderRadius={"12px"}
             align={"center"}
-            width={"637px"}
+            width={{ base: "285px", md: "637px" }}
             border={"1px solid rgba(255, 255, 255, 0.0)"}
             marginBottom={"10px"}
           >
             <AccordionButton
               fontWeight={"700"}
-              fontSize={"24px"}
+              fontSize={{ base: "16px", md: "24px" }}
               justifyContent={"space-between"}
             >
               <Box>Builds🚢</Box>
