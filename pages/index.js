@@ -37,20 +37,32 @@ export default function Home() {
           align={"center"}
         >
           <Flex marginLeft={{ base: "14.18px", md: "26px" }} gap={"15px"}>
-            <Image
-              src={"pfp.png"}
-              height={"75px"}
-              width={"75"}
-              borderRadius={"100px"}
-              alt={"pfp"}
-            />
+            <a
+              href="https://twitter.com/0xpakhi"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Image
+                src={"pfp.png"}
+                height={"75px"}
+                width={"75"}
+                borderRadius={"100px"}
+                alt={"pfp"}
+              />
+            </a>
             <Flex flexDir={"column"} gap={{ base: "6px", md: "0px" }}>
               <Text
                 color={"white"}
                 fontSize={{ base: "16px", md: "24px" }}
                 fontWeight={"600"}
               >
-                Pakhi Goel
+                <a
+                  href="https://twitter.com/0xpakhi"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Pakhi Goel
+                </a>
               </Text>
               <Text
                 color={"rgba(255, 255, 255, 0.8)"}
