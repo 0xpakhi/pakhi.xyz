@@ -13,11 +13,11 @@ export default function Home() {
     <div className="main">
       <Flex flexDirection={"column"} align={"center"}>
         <Head>
-          <title>pakhi.xyz</title>
+          <title>pakhi.fun</title>
           <link rel="shortcut icon" href="pfp.png" />
           <meta
             name="description"
-            content="internet painter? code x design"
+            content="internet carpenter? code x design"
             key="desc"
           />
           <meta property="og:title" content="Pakhi Goel" />
