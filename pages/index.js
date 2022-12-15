@@ -19,7 +19,7 @@ export default function Home() {
         <meta property="og:title" content="Pakhi Goel" />
         <meta
           property="og:image"
-          content="pfp.png"
+          content="https://i.postimg.cc/htXj19hw/91629ae6-65b4-47a0-a1d2-586c0ce6b864-1.jpg"
         />
       </Head>
         <Flex

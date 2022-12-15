@@ -4,6 +4,16 @@ export default function art() {
   return (
     <div className="main">
       <Flex flexDirection={"column"} align={"center"} paddingBottom={"70px"}>
+      <Head>
+        <title>pakhi.xyz</title>
+        <link rel="shortcut icon" href="pfp.png" />
+        <meta name="description" content="🎨Art" key="desc" />
+        <meta property="og:title" content="Pakhi Goel" />
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/hjPNV0tQ/IMG-7482.jpg"
+        />
+      </Head>
         <Flex
           height={"103px"}
           width={{ base: "319px", md: "703px" }}
@@ -41,8 +51,7 @@ export default function art() {
             <Image src="art (7).jpg" alt="art" borderRadius={"7px"} />
             <Image src="art (8).jpg" alt="art" borderRadius={"7px"} />
             <Image src="art (9).jpg" alt="art" borderRadius={"7px"} />
-              <Image src="art (10).jpg" alt="art" borderRadius={"7px"} />
-
+            <Image src="art (10).jpg" alt="art" borderRadius={"7px"} />
           </Flex>
         </Flex>
       </Flex>
