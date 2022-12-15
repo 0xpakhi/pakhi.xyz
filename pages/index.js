@@ -44,8 +44,7 @@ export default function Home() {
             >
               <Image
                 src={"pfp.png"}
-                height={"75px"}
-                width={"75"}
+                width={"75px"}
                 borderRadius={"100px"}
                 alt={"pfp"}
               />
