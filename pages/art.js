@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { Flex, Text, Image, Box } from "@chakra-ui/react";
 export default function art() {
   return (
