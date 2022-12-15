@@ -12,6 +12,16 @@ export default function Home() {
   return (
     <div className="main">
       <Flex flexDirection={"column"} align={"center"}>
+      <Head>
+        <title>pakhi.xyz</title>
+        <link rel="shortcut icon" href="pfp.png" />
+        <meta name="description" content="internet painter? code x design" key="desc" />
+        <meta property="og:title" content="Pakhi Goel" />
+        <meta
+          property="og:image"
+          content="pfp.png"
+        />
+      </Head>
         <Flex
           height={"123px"}
           width={{ base: "319px", md: "703px" }}
