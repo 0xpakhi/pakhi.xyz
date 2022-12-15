@@ -3,7 +3,7 @@ import { Flex, Text, Image, Box } from "@chakra-ui/react";
 export default function art() {
   return (
     <div className="main">
-      <Flex flexDirection={"column"} align={"center"}>
+      <Flex flexDirection={"column"} align={"center"} paddingBottom={"70px"}>
         <Flex
           height={"103px"}
           width={{ base: "319px", md: "703px" }}
@@ -14,7 +14,6 @@ export default function art() {
           boxShadow={"0px 4px 4px rgba(0, 0, 0, 0.25)"}
           justify={"center"}
           align={"center"}
-          _hover={{color:"black"}}
         >
           <Text
             color={"white"}
@@ -24,6 +23,27 @@ export default function art() {
           >
             🎨Art
           </Text>
+        </Flex>
+        <Flex
+          width={{ base: "319px", md: "703px" }}
+          gap={"20px"}
+          marginTop={{ base: "24px", md: "46px" }}
+        >
+          <Flex flexDir={"column"} gap={"20px "}>
+            <Image src="art (1).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (2).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (3).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (4).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (5).jpg" alt="art" borderRadius={"7px"} />
+          </Flex>
+          <Flex flexDir={"column"} gap={"20px "}>
+            <Image src="art (6).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (7).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (8).jpg" alt="art" borderRadius={"7px"} />
+            <Image src="art (9).jpg" alt="art" borderRadius={"7px"} />
+              <Image src="art (10).jpg" alt="art" borderRadius={"7px"} />
+
+          </Flex>
         </Flex>
       </Flex>
     </div>
