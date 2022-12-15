@@ -109,10 +109,11 @@ export default function Home() {
             </Text>
           </Flex>
           <Flex flexDir={"column"} height={"246px"}>
+
             <iframe
               style={{ borderRadius: "12px" }}
               height={"108px"}
-              src="https://open.spotify.com/embed/track/7HE4i03hLQsuuV0fUPFypJ?utm_source=generator"
+              src="https://open.spotify.com/embed/track/3XmJ4yghm34AEFQL8iyC4N?utm_source=generator"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
@@ -180,7 +181,7 @@ export default function Home() {
           <iframe
             style={{ borderRadius: "12px" }}
             height={"80px"}
-            src="https://open.spotify.com/embed/track/7HE4i03hLQsuuV0fUPFypJ?utm_source=generator"
+            src="https://open.spotify.com/embed/track/3XmJ4yghm34AEFQL8iyC4N?utm_source=generator"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
           ></iframe>
