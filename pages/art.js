@@ -51,7 +51,6 @@ export default function art() {
             <Image src="art (6).jpg" alt="art" borderRadius={"7px"} />
             <Image src="art (7).jpg" alt="art" borderRadius={"7px"} />
             <Image src="art (8).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (9).jpg" alt="art" borderRadius={"7px"} />
             <Image src="art (10).jpg" alt="art" borderRadius={"7px"} />
           </Flex>
         </Flex>
