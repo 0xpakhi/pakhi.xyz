@@ -12,16 +12,20 @@ export default function Home() {
   return (
     <div className="main">
       <Flex flexDirection={"column"} align={"center"}>
-      <Head>
-        <title>pakhi.xyz</title>
-        <link rel="shortcut icon" href="pfp.png" />
-        <meta name="description" content="internet painter? code x design" key="desc" />
-        <meta property="og:title" content="Pakhi Goel" />
-        <meta
-          property="og:image"
-          content="https://i.postimg.cc/htXj19hw/91629ae6-65b4-47a0-a1d2-586c0ce6b864-1.jpg"
-        />
-      </Head>
+        <Head>
+          <title>pakhi.xyz</title>
+          <link rel="shortcut icon" href="pfp.png" />
+          <meta
+            name="description"
+            content="internet painter? code x design"
+            key="desc"
+          />
+          <meta property="og:title" content="Pakhi Goel" />
+          <meta
+            property="og:image"
+            content="https://i.postimg.cc/htXj19hw/91629ae6-65b4-47a0-a1d2-586c0ce6b864-1.jpg"
+          />
+        </Head>
         <Flex
           height={"123px"}
           width={{ base: "319px", md: "703px" }}
@@ -54,7 +58,22 @@ export default function Home() {
                 fontWeight={"400"}
               >
                 internet craftsman? code x design <br />
-                sadasya @cosparivaar ; econ + cs @MirandaHouse
+                sadasya{" "}
+                <a
+                  href="https://twitter.com/cosparivaar"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @cosparivaar
+                </a>{" "}
+                ; econ + cs{" "}
+                <a
+                  href="https://www.mirandahouse.ac.in/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  @MirandaHouse
+                </a>
               </Text>
             </Flex>
           </Flex>
