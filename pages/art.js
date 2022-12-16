@@ -1,6 +1,17 @@
 import React from "react";
 import Head from "next/head";
-import { Flex, Text, Image, Box } from "@chakra-ui/react";
+import Image from "next/image";
+import { Flex, Text } from "@chakra-ui/react";
+import art1 from "../public/art/art (1).jpg";
+import art2 from "../public/art/art (2).jpg";
+import art3 from "../public/art/art (3).jpg";
+import art4 from "../public/art/art (4).jpg";
+import art5 from "../public/art/art (5).jpg";
+import art6 from "../public/art/art (6).jpg";
+import art7 from "../public/art/art (7).jpg";
+import art8 from "../public/art/art (8).jpg";
+import art10 from "../public/art/art (10).jpg";
+
 export default function art() {
   return (
     <div className="main">
@@ -41,53 +52,17 @@ export default function art() {
           marginTop={{ base: "24px", md: "46px" }}
         >
           <Flex flexDir={"column"} gap={"20px "}>
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194075/art_1_row28o.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194083/art_2_mze7ot.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194064/art_3_elsvdp.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194058/art_4_gatasq.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194065/art_5_isrgvd.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
+            <Image src={art1} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art2} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art3} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art4} alt="art" style={{ borderRadius: "7px" }} />
           </Flex>
           <Flex flexDir={"column"} gap={"20px "}>
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194080/art_6_bfusck.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194075/art_7_vosksy.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194077/art_8_mrdnkj.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
-            <Image
-              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194081/art_10_krbxxy.jpg"
-              alt="art"
-              borderRadius={"7px"}
-            />
+            <Image src={art6} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art7} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art8} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art5} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art10} alt="art" style={{ borderRadius: "7px" }} />
           </Flex>
         </Flex>
       </Flex>
