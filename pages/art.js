@@ -52,17 +52,17 @@ export default function art() {
           marginTop={{ base: "24px", md: "46px" }}
         >
           <Flex flexDir={"column"} gap={"20px "}>
-            <Image src={art1} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art2} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art3} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art4} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art1} alt="art" style={{ borderRadius: "7px" }}  placeholder="blur"/>
+            <Image src={art2} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
+            <Image src={art3} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
+            <Image src={art4} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
           </Flex>
           <Flex flexDir={"column"} gap={"20px "}>
-            <Image src={art6} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art7} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art8} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art5} alt="art" style={{ borderRadius: "7px" }} />
-            <Image src={art10} alt="art" style={{ borderRadius: "7px" }} />
+            <Image src={art6} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
+            <Image src={art7} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
+            <Image src={art8} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
+            <Image src={art5} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
+            <Image src={art10} alt="art" style={{ borderRadius: "7px" }} placeholder="blur"/>
           </Flex>
         </Flex>
       </Flex>
