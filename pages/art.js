@@ -5,16 +5,16 @@ export default function art() {
   return (
     <div className="main">
       <Flex flexDirection={"column"} align={"center"} paddingBottom={"70px"}>
-      <Head>
-        <title>pakhi.xyz</title>
-        <link rel="shortcut icon" href="pfp.png" />
-        <meta name="description" content="🎨Art" key="desc" />
-        <meta property="og:title" content="Pakhi Goel" />
-        <meta
-          property="og:image"
-          content="https://i.postimg.cc/hjPNV0tQ/IMG-7482.jpg"
-        />
-      </Head>
+        <Head>
+          <title>pakhi.xyz</title>
+          <link rel="shortcut icon" href="pfp.png" />
+          <meta name="description" content="🎨Art" key="desc" />
+          <meta property="og:title" content="Pakhi Goel" />
+          <meta
+            property="og:image"
+            content="https://i.postimg.cc/hjPNV0tQ/IMG-7482.jpg"
+          />
+        </Head>
         <Flex
           height={"103px"}
           width={{ base: "319px", md: "703px" }}
@@ -41,17 +41,53 @@ export default function art() {
           marginTop={{ base: "24px", md: "46px" }}
         >
           <Flex flexDir={"column"} gap={"20px "}>
-            <Image src="art (1).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (2).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (3).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (4).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (5).jpg" alt="art" borderRadius={"7px"} />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194075/art_1_row28o.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194083/art_2_mze7ot.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194064/art_3_elsvdp.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194058/art_4_gatasq.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194065/art_5_isrgvd.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
           </Flex>
           <Flex flexDir={"column"} gap={"20px "}>
-            <Image src="art (6).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (7).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (8).jpg" alt="art" borderRadius={"7px"} />
-            <Image src="art (10).jpg" alt="art" borderRadius={"7px"} />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194080/art_6_bfusck.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194075/art_7_vosksy.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194077/art_8_mrdnkj.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
+            <Image
+              src="https://res.cloudinary.com/dujln9itl/image/upload/v1671194081/art_10_krbxxy.jpg"
+              alt="art"
+              borderRadius={"7px"}
+            />
           </Flex>
         </Flex>
       </Flex>
