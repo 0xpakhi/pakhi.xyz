@@ -216,7 +216,7 @@ export default function Home() {
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel textAlign={"left"}>
-              <i>In progress, updating soon</i>
+              <i><a href="https://functionary.up.railway.app/" target="blank" style={{textDecoration:"underline"}}>Functionary</a> — making math fun again. crafting at <a href="https://buildspace.so/nights-and-weekends" target="blank">nights and weekend s2</a>.</i>
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
