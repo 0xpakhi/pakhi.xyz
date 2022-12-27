@@ -113,7 +113,7 @@ export default function Home() {
             <iframe
               style={{ borderRadius: "12px" }}
               height={"108px"}
-              src="https://open.spotify.com/embed/track/3XmJ4yghm34AEFQL8iyC4N?utm_source=generator"
+              src="https://open.spotify.com/embed/track/54X78diSLoUDI3joC2bjMz?utm_source=generator"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
